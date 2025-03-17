@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\CMakeFiles\c4b9e851c45cb38c54da9c14ef53e9f5\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{20D77BEA-BC91-33F6-BE20-FC70AC4C83D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\tests\cursor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{969C634B-D3B0-3862-9F4C-8597E51DAC20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\COMPUTERGRAPHICS\CG_PROJ 2\CG_PROJECT_2\EXTERNAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ComputerGraphics/cg_proj 2/cg_project_2" "-BC:/ComputerGraphics/cg_proj 2/cg_project_2/build" --check-stamp-file "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

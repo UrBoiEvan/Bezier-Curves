@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\PointsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\vboindexer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\PointsObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\common\vboindexer.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\pointVertexShader.glsl" />
+    <None Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\pointFragmentShader.glsl" />
+    <None Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\pickingPointVertexShader.glsl" />
+    <None Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\source\pickingPointFragmentShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5E2CA860-E976-3DE0-B071-CDE8ABC87662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{969C634B-D3B0-3862-9F4C-8597E51DAC20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{898FA60C-0053-3382-B998-0D48B0E47595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
