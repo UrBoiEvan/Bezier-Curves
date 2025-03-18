@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\CMakeLists.txt" />
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

@@ -1,15 +1,15 @@
 # CMake generation dependency list for this directory.
-C:/ComputerGraphics/cg_proj 2/cg_project_2/CMakeLists.txt
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CMakeCCompiler.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CMakeRCCompiler.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CMakeSystem.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/CleanDirectoryList.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/CreateLaunchers.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/ListCombinations.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/MSVCMultipleProcessCompile.cmake
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/launcher-templates/targetlauncher.cmd.in
-C:/ComputerGraphics/cg_proj 2/cg_project_2/external/rpavlik-cmake-modules-fe2273/launcher-templates/vcxproj.user.in
+C:/ComputerGraphics/cg_proj_2/cg_project_2/CMakeLists.txt
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CMakeCCompiler.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CMakeRCCompiler.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CMakeSystem.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/CleanDirectoryList.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/CreateLaunchers.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/ListCombinations.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/MSVCMultipleProcessCompile.cmake
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/launcher-templates/targetlauncher.cmd.in
+C:/ComputerGraphics/cg_proj_2/cg_project_2/external/rpavlik-cmake-modules-fe2273/launcher-templates/vcxproj.user.in
 C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

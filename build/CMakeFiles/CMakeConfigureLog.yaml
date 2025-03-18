@@ -26,8 +26,8 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/16/2025 9:15:33 PM.
-      Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Build started 3/18/2025 8:08:55 AM.
+      Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -38,7 +38,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -46,13 +46,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.40
+      Time Elapsed 00:00:00.90
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CompilerIdC/CompilerIdC.exe
+        C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -80,8 +80,8 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/16/2025 9:15:35 PM.
-      Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Build started 3/18/2025 8:08:57 AM.
+      Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -92,7 +92,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -100,13 +100,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.21
+      Time Elapsed 00:00:00.63
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/3.31.5/CompilerIdCXX/CompilerIdCXX.exe
+        C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/3.31.5/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,47 +125,47 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-r41h9p"
-      binary: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-r41h9p"
+      source: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-ihnpaf"
+      binary: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-ihnpaf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-r41h9p'
+        Change Dir: 'C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-ihnpaf'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_d7c51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ae748.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/16/2025 9:15:36 PM.
-        Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r41h9p\\cmTC_d7c51.vcxproj" on node 1 (default targets).
+        Build started 3/18/2025 8:08:58 AM.
+        Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihnpaf\\cmTC_ae748.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d7c51.dir\\Debug\\".
-          Creating directory "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r41h9p\\Debug\\".
-          Creating directory "cmTC_d7c51.dir\\Debug\\cmTC_d7c51.tlog\\".
+          Creating directory "cmTC_ae748.dir\\Debug\\".
+          Creating directory "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihnpaf\\Debug\\".
+          Creating directory "cmTC_ae748.dir\\Debug\\cmTC_ae748.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d7c51.dir\\Debug\\cmTC_d7c51.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_ae748.dir\\Debug\\cmTC_ae748.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c51.dir\\Debug\\\\" /Fd"cmTC_d7c51.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae748.dir\\Debug\\\\" /Fd"cmTC_ae748.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c51.dir\\Debug\\\\" /Fd"cmTC_d7c51.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae748.dir\\Debug\\\\" /Fd"cmTC_ae748.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r41h9p\\Debug\\cmTC_d7c51.exe" /INCREMENTAL /ILK:"cmTC_d7c51.dir\\Debug\\cmTC_d7c51.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-r41h9p/Debug/cmTC_d7c51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-r41h9p/Debug/cmTC_d7c51.lib" /MACHINE:X64  /machine:x64 cmTC_d7c51.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d7c51.vcxproj -> C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r41h9p\\Debug\\cmTC_d7c51.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihnpaf\\Debug\\cmTC_ae748.exe" /INCREMENTAL /ILK:"cmTC_ae748.dir\\Debug\\cmTC_ae748.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-ihnpaf/Debug/cmTC_ae748.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-ihnpaf/Debug/cmTC_ae748.lib" /MACHINE:X64  /machine:x64 cmTC_ae748.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ae748.vcxproj -> C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihnpaf\\Debug\\cmTC_ae748.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d7c51.dir\\Debug\\cmTC_d7c51.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d7c51.dir\\Debug\\cmTC_d7c51.tlog\\cmTC_d7c51.lastbuildstate".
-        Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r41h9p\\cmTC_d7c51.vcxproj" (default targets).
+          Deleting file "cmTC_ae748.dir\\Debug\\cmTC_ae748.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ae748.dir\\Debug\\cmTC_ae748.tlog\\cmTC_ae748.lastbuildstate".
+        Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihnpaf\\cmTC_ae748.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.93
+        Time Elapsed 00:00:00.57
         
       exitCode: 0
   -
@@ -205,8 +205,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-btwtzh"
-      binary: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-btwtzh"
+      source: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-jp7o2u"
+      binary: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-jp7o2u"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -214,39 +214,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-btwtzh'
+        Change Dir: 'C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-jp7o2u'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2a6f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_76cc2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/16/2025 9:15:38 PM.
-        Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-btwtzh\\cmTC_2a6f4.vcxproj" on node 1 (default targets).
+        Build started 3/18/2025 8:08:59 AM.
+        Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jp7o2u\\cmTC_76cc2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2a6f4.dir\\Debug\\".
-          Creating directory "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-btwtzh\\Debug\\".
-          Creating directory "cmTC_2a6f4.dir\\Debug\\cmTC_2a6f4.tlog\\".
+          Creating directory "cmTC_76cc2.dir\\Debug\\".
+          Creating directory "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jp7o2u\\Debug\\".
+          Creating directory "cmTC_76cc2.dir\\Debug\\cmTC_76cc2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2a6f4.dir\\Debug\\cmTC_2a6f4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_76cc2.dir\\Debug\\cmTC_76cc2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a6f4.dir\\Debug\\\\" /Fd"cmTC_2a6f4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76cc2.dir\\Debug\\\\" /Fd"cmTC_76cc2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a6f4.dir\\Debug\\\\" /Fd"cmTC_2a6f4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76cc2.dir\\Debug\\\\" /Fd"cmTC_76cc2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-btwtzh\\Debug\\cmTC_2a6f4.exe" /INCREMENTAL /ILK:"cmTC_2a6f4.dir\\Debug\\cmTC_2a6f4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-btwtzh/Debug/cmTC_2a6f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-btwtzh/Debug/cmTC_2a6f4.lib" /MACHINE:X64  /machine:x64 cmTC_2a6f4.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_2a6f4.vcxproj -> C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-btwtzh\\Debug\\cmTC_2a6f4.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jp7o2u\\Debug\\cmTC_76cc2.exe" /INCREMENTAL /ILK:"cmTC_76cc2.dir\\Debug\\cmTC_76cc2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-jp7o2u/Debug/cmTC_76cc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-jp7o2u/Debug/cmTC_76cc2.lib" /MACHINE:X64  /machine:x64 cmTC_76cc2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_76cc2.vcxproj -> C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jp7o2u\\Debug\\cmTC_76cc2.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2a6f4.dir\\Debug\\cmTC_2a6f4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2a6f4.dir\\Debug\\cmTC_2a6f4.tlog\\cmTC_2a6f4.lastbuildstate".
-        Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-btwtzh\\cmTC_2a6f4.vcxproj" (default targets).
+          Deleting file "cmTC_76cc2.dir\\Debug\\cmTC_76cc2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_76cc2.dir\\Debug\\cmTC_76cc2.tlog\\cmTC_76cc2.lastbuildstate".
+        Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jp7o2u\\cmTC_76cc2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.08
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
@@ -288,48 +288,48 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-o3uemc"
-      binary: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-o3uemc"
+      source: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-buwtcp"
+      binary: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-buwtcp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-o3uemc'
+        Change Dir: 'C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-buwtcp'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c4511.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_d328e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/16/2025 9:15:40 PM.
-        Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\cmTC_c4511.vcxproj" on node 1 (default targets).
+        Build started 3/18/2025 8:09:00 AM.
+        Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\cmTC_d328e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c4511.dir\\Debug\\".
-          Creating directory "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\Debug\\".
-          Creating directory "cmTC_c4511.dir\\Debug\\cmTC_c4511.tlog\\".
+          Creating directory "cmTC_d328e.dir\\Debug\\".
+          Creating directory "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\Debug\\".
+          Creating directory "cmTC_d328e.dir\\Debug\\cmTC_d328e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c4511.dir\\Debug\\cmTC_c4511.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_d328e.dir\\Debug\\cmTC_d328e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4511.dir\\Debug\\\\" /Fd"cmTC_c4511.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d328e.dir\\Debug\\\\" /Fd"cmTC_d328e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           src.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4511.dir\\Debug\\\\" /Fd"cmTC_c4511.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\src.c"
-        C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\cmTC_c4511.vcxproj]
-        Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\cmTC_c4511.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d328e.dir\\Debug\\\\" /Fd"cmTC_d328e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\src.c"
+        C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\cmTC_d328e.vcxproj]
+        Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\cmTC_d328e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\cmTC_c4511.vcxproj" (default target) (1) ->
+        "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\cmTC_d328e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o3uemc\\cmTC_c4511.vcxproj]
+          C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buwtcp\\cmTC_d328e.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.69
+        Time Elapsed 00:00:00.39
         
       exitCode: 1
   -
@@ -342,50 +342,50 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-fqnvn8"
-      binary: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-fqnvn8"
+      source: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-9p5m9d"
+      binary: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-9p5m9d"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-fqnvn8'
+        Change Dir: 'C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-9p5m9d'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_7aa4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_963de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/16/2025 9:15:41 PM.
-        Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\cmTC_7aa4c.vcxproj" on node 1 (default targets).
+        Build started 3/18/2025 8:09:01 AM.
+        Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\cmTC_963de.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_7aa4c.dir\\Debug\\".
-          Creating directory "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\Debug\\".
-          Creating directory "cmTC_7aa4c.dir\\Debug\\cmTC_7aa4c.tlog\\".
+          Creating directory "cmTC_963de.dir\\Debug\\".
+          Creating directory "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\Debug\\".
+          Creating directory "cmTC_963de.dir\\Debug\\cmTC_963de.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7aa4c.dir\\Debug\\cmTC_7aa4c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_963de.dir\\Debug\\cmTC_963de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa4c.dir\\Debug\\\\" /Fd"cmTC_7aa4c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_963de.dir\\Debug\\\\" /Fd"cmTC_963de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa4c.dir\\Debug\\\\" /Fd"cmTC_7aa4c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_963de.dir\\Debug\\\\" /Fd"cmTC_963de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\Debug\\cmTC_7aa4c.exe" /INCREMENTAL /ILK:"cmTC_7aa4c.dir\\Debug\\cmTC_7aa4c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-fqnvn8/Debug/cmTC_7aa4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-fqnvn8/Debug/cmTC_7aa4c.lib" /MACHINE:X64  /machine:x64 cmTC_7aa4c.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\cmTC_7aa4c.vcxproj]
-        Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\cmTC_7aa4c.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\Debug\\cmTC_963de.exe" /INCREMENTAL /ILK:"cmTC_963de.dir\\Debug\\cmTC_963de.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-9p5m9d/Debug/cmTC_963de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-9p5m9d/Debug/cmTC_963de.lib" /MACHINE:X64  /machine:x64 cmTC_963de.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\cmTC_963de.vcxproj]
+        Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\cmTC_963de.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\cmTC_7aa4c.vcxproj" (default target) (1) ->
+        "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\cmTC_963de.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqnvn8\\cmTC_7aa4c.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9p5m9d\\cmTC_963de.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.99
+        Time Elapsed 00:00:00.50
         
       exitCode: 1
   -
@@ -398,50 +398,50 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-nvnre2"
-      binary: "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-nvnre2"
+      source: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-eh2em8"
+      binary: "C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-eh2em8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-nvnre2'
+        Change Dir: 'C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-eh2em8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_49d92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_15149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/16/2025 9:15:43 PM.
-        Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\cmTC_49d92.vcxproj" on node 1 (default targets).
+        Build started 3/18/2025 8:09:01 AM.
+        Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\cmTC_15149.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_49d92.dir\\Debug\\".
-          Creating directory "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\Debug\\".
-          Creating directory "cmTC_49d92.dir\\Debug\\cmTC_49d92.tlog\\".
+          Creating directory "cmTC_15149.dir\\Debug\\".
+          Creating directory "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\Debug\\".
+          Creating directory "cmTC_15149.dir\\Debug\\cmTC_15149.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_49d92.dir\\Debug\\cmTC_49d92.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_15149.dir\\Debug\\cmTC_15149.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49d92.dir\\Debug\\\\" /Fd"cmTC_49d92.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15149.dir\\Debug\\\\" /Fd"cmTC_15149.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49d92.dir\\Debug\\\\" /Fd"cmTC_49d92.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15149.dir\\Debug\\\\" /Fd"cmTC_15149.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\Debug\\cmTC_49d92.exe" /INCREMENTAL /ILK:"cmTC_49d92.dir\\Debug\\cmTC_49d92.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-nvnre2/Debug/cmTC_49d92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-nvnre2/Debug/cmTC_49d92.lib" /MACHINE:X64  /machine:x64 cmTC_49d92.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\cmTC_49d92.vcxproj]
-        Done Building Project "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\cmTC_49d92.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\Debug\\cmTC_15149.exe" /INCREMENTAL /ILK:"cmTC_15149.dir\\Debug\\cmTC_15149.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-eh2em8/Debug/cmTC_15149.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/CMakeScratch/TryCompile-eh2em8/Debug/cmTC_15149.lib" /MACHINE:X64  /machine:x64 cmTC_15149.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\cmTC_15149.vcxproj]
+        Done Building Project "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\cmTC_15149.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\cmTC_49d92.vcxproj" (default target) (1) ->
+        "C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\cmTC_15149.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\ComputerGraphics\\cg_proj 2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nvnre2\\cmTC_49d92.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\ComputerGraphics\\cg_proj_2\\cg_project_2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eh2em8\\cmTC_15149.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.87
+        Time Elapsed 00:00:00.47
         
       exitCode: 1
 ...

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9E1489C7-C91F-3AA6-A44B-95B00E075AA7}</ProjectGuid>
+    <ProjectGuid>{A567A0D6-D1CB-393E-8F8D-BEAF97A6FF28}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">windows.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">windows</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">windows.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">windows</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">windows.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">windows</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">windows.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">windows</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -107,10 +107,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,8 +124,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/Debug/windows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/Debug/windows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/Debug/windows.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/Debug/windows.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -156,10 +156,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -173,8 +173,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/Release/windows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/Release/windows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/Release/windows.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/Release/windows.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -205,10 +205,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -222,8 +222,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/MinSizeRel/windows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/MinSizeRel/windows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/MinSizeRel/windows.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/MinSizeRel/windows.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -232,7 +232,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -253,10 +253,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\include;C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -270,8 +270,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/RelWithDebInfo/windows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/RelWithDebInfo/windows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/RelWithDebInfo/windows.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/RelWithDebInfo/windows.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -279,11 +279,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\tests\CMakeLists.txt">
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\tests\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ComputerGraphics/cg_proj 2/cg_project_2" "-BC:/ComputerGraphics/cg_proj 2/cg_project_2/build" --check-stamp-file "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ComputerGraphics/cg_proj_2/cg_project_2 -BC:/ComputerGraphics/cg_proj_2/cg_project_2/build --check-stamp-file C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,11 +292,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ComputerGraphics/cg_proj 2/cg_project_2" "-BC:/ComputerGraphics/cg_proj 2/cg_project_2/build" --check-stamp-file "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ComputerGraphics/cg_proj_2/cg_project_2 -BC:/ComputerGraphics/cg_proj_2/cg_project_2/build --check-stamp-file C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,11 +305,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ComputerGraphics/cg_proj 2/cg_project_2" "-BC:/ComputerGraphics/cg_proj 2/cg_project_2/build" --check-stamp-file "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ComputerGraphics/cg_proj_2/cg_project_2 -BC:/ComputerGraphics/cg_proj_2/cg_project_2/build --check-stamp-file C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -318,11 +318,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj 2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ComputerGraphics/cg_proj_2/cg_project_2/external/glfw-3.1.2/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ComputerGraphics/cg_proj 2/cg_project_2" "-BC:/ComputerGraphics/cg_proj 2/cg_project_2/build" --check-stamp-file "C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ComputerGraphics/cg_proj_2/cg_project_2 -BC:/ComputerGraphics/cg_proj_2/cg_project_2/build --check-stamp-file C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -331,23 +331,23 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glfw-3.1.2\tests\windows.c" />
+    <ClCompile Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glfw-3.1.2\tests\windows.c" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\build\ZERO_CHECK.vcxproj">
-      <Project>{66698EC5-6D18-3DD3-A09D-4FB1CA1CA571}</Project>
+    <ProjectReference Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\build\ZERO_CHECK.vcxproj">
+      <Project>{BD9B7439-2157-3798-92FF-DBE19738A4E3}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\src\glfw.vcxproj">
-      <Project>{A724F023-7BA9-3F5A-9300-C5635975329A}</Project>
+    <ProjectReference Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{1C992422-B79C-326A-9958-51B548ED57C1}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

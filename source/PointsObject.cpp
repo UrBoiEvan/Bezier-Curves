@@ -5,7 +5,7 @@
 
 PointsObject::PointsObject(const std::vector<glm::vec3>& initPositions, const std::vector<glm::vec3>& initColors) {
     if (initPositions.size() != initColors.size()) {
-        std::cerr << "Error: positions and colors vectors must have the same size." << std::endl;
+        //std::cerr << "Error: positions and colors vectors must have the same size." << std::endl;
         return;
     }
     positions = initPositions;
@@ -45,7 +45,7 @@ PointsObject::~PointsObject() {
 
 void PointsObject::updatePoint(int index, const glm::vec3& newPosition) {
     if (index < 0 || index >= positions.size()) {
-        std::cerr << "Error: point index out of range." << std::endl;
+        //std::cerr << "Error: point index out of range." << std::endl;
         return;
     }
     
@@ -85,4 +85,13 @@ void PointsObject::drawPicking(const glm::mat4& view, const glm::mat4& projectio
     glDrawArrays(GL_POINTS, 0, positions.size());
     glBindVertexArray(0);
     glUseProgram(0);
+}
+
+glm::vec3 PointsObject::getPointColor(int index) {
+    return colors[index];
+}
+
+void PointsObject::setPointColor(int index, glm::vec3 &newColor) {
+    std::cout << "Setting color for point " << index << " to " << newColor.r << ", " << newColor.g << ", " << newColor.b << std::endl;
+    colors[index] = newColor;
 }

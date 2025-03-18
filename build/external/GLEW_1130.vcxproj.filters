@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glew-1.13.0\src\glew.c">
+    <ClCompile Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glew-1.13.0\src\glew.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\glew-1.13.0\include\GL\glew.h">
+    <ClInclude Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\glew-1.13.0\include\GL\glew.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\external\CMakeLists.txt" />
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\external\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5E2CA860-E976-3DE0-B071-CDE8ABC87662}</UniqueIdentifier>
+      <UniqueIdentifier>{33694409-B055-352B-803E-8FEC74918F86}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{969C634B-D3B0-3862-9F4C-8597E51DAC20}</UniqueIdentifier>
+      <UniqueIdentifier>{14749D43-FDAA-373D-BA37-AC18346DEC8D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

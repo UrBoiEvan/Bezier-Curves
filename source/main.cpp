@@ -20,7 +20,11 @@ GLFWwindow* window;
 
 // The point that is currently selected.
 int currSelected =-1;
-
+float pi = 3.14159265358979323846f; // Pi constant
+std::vector<glm::vec3> points; // Vector to hold the points
+std::vector<glm::vec3> colors; // Vector to hold the colors
+glm::vec3 storedColor; // Used to restore a point to its original color after picking color is drawn
+int storedIndex;
 
 int main() {
     // ATTN: REFER TO https://learnopengl.com/Getting-started/Creating-a-window
@@ -31,18 +35,28 @@ int main() {
 
     glm::mat4 projectionMatrix = glm::ortho(-4.0f, 4.0f, -3.0f, 3.0f, 0.0f, 100.0f); // In world coordinates
 
+
+    glm::vec3 generatedColor;
+    for (int i = 0; i < 8; ++i) {
+        float angle = i * (2.0f * pi / 8.0f); // Angle for each point
+        float x = 2.0f * cos(angle); // X position on the circle
+        float y = 2.0f * sin(angle); // Y position on the circle
+        points.push_back(glm::vec3(x, y, 0.0f)); // Add point position
+        // Assign a color to each point 
+        generatedColor = glm::vec3(0.0f, 1.0f, 0.0f); // Default color (green)
+        /*
+        generatedColor = {
+            (float)(rand() % 256) / 255.0f, // Random red component
+            (float)(rand() % 256) / 255.0f, // Random green component
+            (float)(rand() % 256) / 255.0f  // Random blue component
+        };
+        */
+        std::cout << "Generated color: " << generatedColor.r << ", " << generatedColor.g << ", " << generatedColor.b << std::endl;
+        colors.push_back(generatedColor);
+    }
     
     //TODO: P2aTask1 - Display 8 points on the screen each of a different color and arranged uniformly on a circle.
-    PointsObject pointsObj({
-        {0.0f, 0.0f, 0.0f},  // First point position
-        {1.0f, 1.0f, 0.0f},  // Second point position
-        {-1.0f, 0.0f, 0.0f} // Third point position
-    }, {
-        {1.0f, 0.0f, 0.0f},  // First point color (red)
-        {0.0f, 1.0f, 0.0f},  // Second point color (green)
-        {0.0f, 0.0f, 1.0f}   // Third point color (blue)
-    });
-    
+    PointsObject pointsObj(points, colors);
     
     double lastTime = glfwGetTime();
     int nbFrames = 0;
@@ -69,7 +83,7 @@ int main() {
         else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT)){
             // Draw picking for P2aTask2
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-            pointsObj.drawPicking(viewMatrix, projectionMatrix);
+            pointsObj.drawPicking(viewMatrix, projectionMatrix); // drawn in picking mode, the user will never see these colors
             currSelected = getPickedIndex();
             
             std::cout << "Picked id: " << currSelected << std::endl;
@@ -83,7 +97,7 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
         // DRAWING the SCENE
-        
+
         pointsObj.draw(viewMatrix, projectionMatrix);
         
         
@@ -151,7 +165,7 @@ static void mouseCallback(GLFWwindow* window, int button, int action, int mods) 
     }
 }
 
-int getPickedIndex(){
+int getPickedIndex(){ // colors are drawn in the picking mode
     glFlush();
     // --- Wait until all the pending drawing commands are really done.
     // Ultra-mega-over slow !
@@ -164,9 +178,13 @@ int getPickedIndex(){
     unsigned char data[4];
 
     //TODO: P2aTask2 - Use glfwGetCursorPos to get the x and y value of the cursor.
-    
+    double x_pos, y_pos;
+    glfwGetCursorPos(window, &x_pos, &y_pos);
+    y_pos = windowHeight - y_pos; // Flip y position as glfwGetCursorPos gives the cursor position relative to top left of the screen.
+    std::cout << "Cursor position: " << x_pos << ", " << y_pos << std::endl;
     //TODO: P2aTask2 - Use glfwGetFramebufferSize and glfwGetWindowSize to get the frame buffer size and window size. On high resolution displays, these sizes might be different.
-    
+    glReadPixels(x_pos, y_pos, 1, 1, GL_RGBA, GL_UNSIGNED_BYTE, data);
+    std::cout << "Pixel data: " << (int)data[0] << ", " << (int)data[1] << ", " << (int)data[2] << ", " << (int)data[3] << std::endl;
     //TODO: P2aTask2 - Use glReadPixels(x_read, y_read, 1, 1, GL_RGBA, GL_UNSIGNED_BYTE, data) to read the pixel data.
     // Note that y position has to be flipped as glfwGetCursorPos gives the cursor position relative to top left of the screen. The read location must also be multiplied by (buffer size / windowSize) for some displays.
     

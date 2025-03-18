@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{40F1B5C7-E4FD-390A-AA32-CFFF2A04F1FA}</ProjectGuid>
+    <ProjectGuid>{4DB2A079-8157-3A50-9BA1-696C317FC643}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\build\CMakeFiles\a4278fa9e7949347bdf795bac5d0b6dd\INSTALL_force.rule">
+    <CustomBuild Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\build\CMakeFiles\a56c8eca23936faa23fe656068fa6812\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -138,7 +138,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -153,7 +153,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
@@ -183,21 +183,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\tests\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\build\ZERO_CHECK.vcxproj">
-      <Project>{66698EC5-6D18-3DD3-A09D-4FB1CA1CA571}</Project>
+    <ProjectReference Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\build\ZERO_CHECK.vcxproj">
+      <Project>{BD9B7439-2157-3798-92FF-DBE19738A4E3}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\ComputerGraphics\cg_proj 2\cg_project_2\build\external\glfw-3.1.2\ALL_BUILD.vcxproj">
-      <Project>{03A1C701-6A3A-3679-A1F3-65330EE79E9C}</Project>
+    <ProjectReference Include="C:\ComputerGraphics\cg_proj_2\cg_project_2\build\external\glfw-3.1.2\ALL_BUILD.vcxproj">
+      <Project>{5E0D0C9D-1977-36B2-8D03-1615B288CBD9}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

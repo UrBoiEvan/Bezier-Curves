@@ -1,36 +1,36 @@
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/p2.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/INSTALL.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/ALL_BUILD.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/CMakeFiles/ZERO_CHECK.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/CMakeFiles/GLEW_1130.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/CMakeFiles/INSTALL.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/uninstall.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/INSTALL.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/ALL_BUILD.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/src/CMakeFiles/glfw.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/src/CMakeFiles/INSTALL.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/boing.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/gears.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/heightmap.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/particles.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/simple.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/wave.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/INSTALL.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/clipboard.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/events.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/msaa.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/glfwinfo.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/iconify.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/monitors.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/cursor.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/empty.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/sharing.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/tearing.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/threads.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/title.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/windows.dir
-C:/ComputerGraphics/cg_proj 2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/p2.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/ALL_BUILD.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/CMakeFiles/ZERO_CHECK.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/CMakeFiles/GLEW_1130.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/uninstall.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/CMakeFiles/ALL_BUILD.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/src/CMakeFiles/glfw.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/src/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/boing.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/gears.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/heightmap.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/particles.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/simple.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/wave.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/examples/CMakeFiles/INSTALL.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/clipboard.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/events.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/msaa.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/glfwinfo.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/iconify.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/monitors.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/cursor.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/empty.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/sharing.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/tearing.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/threads.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/title.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/windows.dir
+C:/ComputerGraphics/cg_proj_2/cg_project_2/build/external/glfw-3.1.2/tests/CMakeFiles/INSTALL.dir

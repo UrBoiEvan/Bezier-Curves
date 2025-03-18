@@ -20,6 +20,10 @@ public:
     // Draw the points for picking (using a picking shader).
     void drawPicking(const glm::mat4& view, const glm::mat4& projection);
 
+    void setPointColor(int index, glm::vec3 &newColor);
+
+    glm::vec3 getPointColor(int index);
+
 private:
     // Storage for positions and colors.
     std::vector<glm::vec3> positions;
