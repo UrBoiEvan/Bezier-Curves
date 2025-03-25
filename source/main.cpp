@@ -10,10 +10,7 @@
 int initWindow(void);
 static void mouseCallback(GLFWwindow*, int, int, int);
 int getPickedIndex();
-glm::vec3 getWorldPosition(const glm::mat4& viewMatrix,
-                           const glm::mat4& projectionMatrix);
-
-
+glm::vec3 getWorldPosition(const glm::mat4& viewMatrix, const glm::mat4& projectionMatrix);
 
 const GLuint windowWidth = 1024, windowHeight = 768;
 GLFWwindow* window;
@@ -25,6 +22,7 @@ std::vector<glm::vec3> points; // Vector to hold the points
 std::vector<glm::vec3> colors; // Vector to hold the colors
 glm::vec3 storedColor; // Used to restore a point to its original color after picking color is drawn
 int storedIndex;
+PointsObject* pointsObj;
 
 int main() {
     // ATTN: REFER TO https://learnopengl.com/Getting-started/Creating-a-window
@@ -35,7 +33,7 @@ int main() {
 
     glm::mat4 projectionMatrix = glm::ortho(-4.0f, 4.0f, -3.0f, 3.0f, 0.0f, 100.0f); // In world coordinates
 
-
+    std::vector<glm::vec3> colors;
     glm::vec3 generatedColor;
     for (int i = 0; i < 8; ++i) {
         float angle = i * (2.0f * pi / 8.0f); // Angle for each point
@@ -43,20 +41,19 @@ int main() {
         float y = 2.0f * sin(angle); // Y position on the circle
         points.push_back(glm::vec3(x, y, 0.0f)); // Add point position
         // Assign a color to each point 
-        generatedColor = glm::vec3(0.0f, 1.0f, 0.0f); // Default color (green)
-        /*
-        generatedColor = {
-            (float)(rand() % 256) / 255.0f, // Random red component
-            (float)(rand() % 256) / 255.0f, // Random green component
-            (float)(rand() % 256) / 255.0f  // Random blue component
-        };
-        */
-        std::cout << "Generated color: " << generatedColor.r << ", " << generatedColor.g << ", " << generatedColor.b << std::endl;
-        colors.push_back(generatedColor);
     }
+
+    colors.push_back(glm::vec3(0.0f, 1.0f, 0.0f)); // Default color (green)--
+    colors.push_back(glm::vec3(1.0f, 0.0f, 0.0f)); // Default color (red)
+    colors.push_back(glm::vec3(0.0f, 0.0f, 1.0f)); // Default color (blue)
+    colors.push_back(glm::vec3(1.0f, 1.0f, 0.0f)); // Default color (yellow)
+    colors.push_back(glm::vec3(1.0f, 0.0f, 1.0f)); // Default color (magenta)
+    colors.push_back(glm::vec3(0.0f, 1.0f, 1.0f)); // Default color (cyan)
+    colors.push_back(glm::vec3(0.0f, 1.0f, 0.0f)); // Default color (green)--
+    colors.push_back(glm::vec3(1.0f, 0.5f, 0.0f)); // Default color (orange)
     
     //TODO: P2aTask1 - Display 8 points on the screen each of a different color and arranged uniformly on a circle.
-    PointsObject pointsObj(points, colors);
+    pointsObj = new PointsObject(points, colors);
     
     double lastTime = glfwGetTime();
     int nbFrames = 0;
@@ -78,27 +75,28 @@ int main() {
         if(currSelected >= 0){
             // Dragging for P2aTask3
             glm::vec3 worldPos = getWorldPosition(viewMatrix, projectionMatrix);
-            pointsObj.updatePoint(currSelected, worldPos);
+            pointsObj->updatePoint(currSelected, worldPos);
         }
         else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT)){
             // Draw picking for P2aTask2
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-            pointsObj.drawPicking(viewMatrix, projectionMatrix); // drawn in picking mode, the user will never see these colors
+            pointsObj->drawPicking(viewMatrix, projectionMatrix); // drawn in picking mode, the user will never see these colors
             currSelected = getPickedIndex();
             
-            std::cout << "Picked id: " << currSelected << std::endl;
-                        
+            if (currSelected >= 0) {
+                storedColor = pointsObj->getPointColor(currSelected);
+                pointsObj->setPointColor(currSelected, glm::vec3(1.0f, 1.0f, 1.0f));
+            }
         }
-        if(!glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT)){
-            currSelected = -1;
-        }
-        
+        //if(!glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT)){
+        //    currSelected = -1;
+        //} ^^ Uses glfw mouse callback instead of polling ^^
         
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
         // DRAWING the SCENE
 
-        pointsObj.draw(viewMatrix, projectionMatrix);
+        pointsObj->draw(viewMatrix, projectionMatrix);
         
         
         glfwSwapBuffers(window);
@@ -125,7 +123,7 @@ int initWindow() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // FOR MAC
 
-    window = glfwCreateWindow(windowWidth, windowHeight, "Lastname,FirstName(ufid)", NULL, NULL);
+    window = glfwCreateWindow(windowWidth, windowHeight, "Harden,Evan(27541192)", NULL, NULL);
     if (window == NULL) {
         fprintf(stderr, "Failed to open GLFW window.\n");
         glfwTerminate();
@@ -161,7 +159,10 @@ int initWindow() {
 
 static void mouseCallback(GLFWwindow* window, int button, int action, int mods) {
     if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
-        std::cout << "Left mouse button pressed" << std::endl;
+    }
+    else if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE && currSelected >= 0) {
+        pointsObj->setPointColor(currSelected, storedColor); // restore color
+        currSelected = -1;
     }
 }
 
@@ -181,10 +182,8 @@ int getPickedIndex(){ // colors are drawn in the picking mode
     double x_pos, y_pos;
     glfwGetCursorPos(window, &x_pos, &y_pos);
     y_pos = windowHeight - y_pos; // Flip y position as glfwGetCursorPos gives the cursor position relative to top left of the screen.
-    std::cout << "Cursor position: " << x_pos << ", " << y_pos << std::endl;
     //TODO: P2aTask2 - Use glfwGetFramebufferSize and glfwGetWindowSize to get the frame buffer size and window size. On high resolution displays, these sizes might be different.
     glReadPixels(x_pos, y_pos, 1, 1, GL_RGBA, GL_UNSIGNED_BYTE, data);
-    std::cout << "Pixel data: " << (int)data[0] << ", " << (int)data[1] << ", " << (int)data[2] << ", " << (int)data[3] << std::endl;
     //TODO: P2aTask2 - Use glReadPixels(x_read, y_read, 1, 1, GL_RGBA, GL_UNSIGNED_BYTE, data) to read the pixel data.
     // Note that y position has to be flipped as glfwGetCursorPos gives the cursor position relative to top left of the screen. The read location must also be multiplied by (buffer size / windowSize) for some displays.
     
@@ -192,12 +191,12 @@ int getPickedIndex(){ // colors are drawn in the picking mode
     int pickedId = data[0] - 1;
     return pickedId;
 }
-glm::vec3 getWorldPosition(const glm::mat4& viewMatrix,
-                           const glm::mat4& projectionMatrix)
-{
+glm::vec3 getWorldPosition(const glm::mat4& viewMatrix, const glm::mat4& projectionMatrix) {
     
     //TODO: P2aTask3 - Use glfwGetFramebufferSize and glfwGetWindowSize to get the frame buffer size and window size. On high resolution displays, these sizes might be different.
-    
+    double x_pos, y_pos;
+    glfwGetCursorPos(window, &x_pos, &y_pos);
+    y_pos = windowHeight - y_pos; // Flip y position as glfwGetCursorPos gives the cursor position relative to top left of the screen.
     //TODO: P2aTask2 - Use glfwGetCursorPos to get the x and y value of the cursor.
     // Note that y position has to be flipped as glfwGetCursorPos gives the cursor position relative to top left of the screen. The read location must also be multiplied by (buffer size / windowSize) for some displays.
     
@@ -207,6 +206,7 @@ glm::vec3 getWorldPosition(const glm::mat4& viewMatrix,
     // Note that vp is viewport converted to vec4; screenPos is vec3(x_screen, y_screen, 0)
     
     glm::vec3 worldPos;
+    worldPos = glm::unProject(glm::vec3(x_pos, y_pos, 0.0f), viewMatrix, projectionMatrix, glm::vec4(0, 0, windowWidth, windowHeight));
     
     return worldPos;
 }

@@ -54,7 +54,8 @@ void PointsObject::updatePoint(int index, const glm::vec3& newPosition) {
     glBindBuffer(GL_ARRAY_BUFFER, VBO_positions);
     
     //TODO: P2aTask3 - Use glBufferSubData to updated the point location in the buffer.
-    // Offset = index * sizeof(glm::vec3), size = sizeof(glm::vec3)
+    int Offset = index * sizeof(glm::vec3), size = sizeof(glm::vec3);
+    glBufferSubData(GL_ARRAY_BUFFER, Offset, size, &positions[index]);
     
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
@@ -94,4 +95,8 @@ glm::vec3 PointsObject::getPointColor(int index) {
 void PointsObject::setPointColor(int index, glm::vec3 &newColor) {
     std::cout << "Setting color for point " << index << " to " << newColor.r << ", " << newColor.g << ", " << newColor.b << std::endl;
     colors[index] = newColor;
+
+    glBindBuffer(GL_ARRAY_BUFFER, VBO_colors);
+    glBufferSubData(GL_ARRAY_BUFFER, index * sizeof(glm::vec3), sizeof(glm::vec3), &colors[index]);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
